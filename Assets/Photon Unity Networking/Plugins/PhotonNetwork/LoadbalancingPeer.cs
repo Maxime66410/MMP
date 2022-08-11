@@ -13,6 +13,8 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using ExitGames.Client.Photon;
+using UnityEngine;
+using Hashtable = System.Collections.Hashtable;
 
 #if UNITY_4_0 || UNITY_4_1 || UNITY_4_2 || UNITY_4_3 || UNITY_4_4 || UNITY_4_5 || UNITY_4_6 || UNITY_4_7 || UNITY_5 || UNITY_5_0 || UNITY_5_1 || UNITY_6
     using UnityEngine;
@@ -364,7 +366,7 @@ using ExitGames.Client.Photon;
 
         public bool OpSetCustomPropertiesOfActor(int actorNr, Hashtable actorProperties)
         {
-            return this.OpSetPropertiesOfActor(actorNr, actorProperties.StripToStringKeys(), null);
+            return this.OpSetPropertiesOfActor(actorNr, actorProperties, null);
         }
 
         /// <summary>
@@ -419,7 +421,7 @@ using ExitGames.Client.Photon;
 
         public bool OpSetCustomPropertiesOfRoom(Hashtable gameProperties, bool broadcast, byte channelId)
         {
-            return this.OpSetPropertiesOfRoom(gameProperties.StripToStringKeys(), expectedProperties: null, webForward: false);
+            return this.OpSetPropertiesOfRoom(gameProperties, expectedProperties: null, webForward: false);
         }
 
         /// <summary>

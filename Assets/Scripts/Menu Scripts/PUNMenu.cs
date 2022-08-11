@@ -167,23 +167,23 @@ public class PUNMenu : PunBehaviour {
 			Transform playerMenu = playerMenus[playerIndex++];
 			// enable car choose option for local player
 			if (p == PhotonNetwork.player) {
-				playerMenu.FindChild("arrow-left").gameObject.SetActive(true);
-				playerMenu.FindChild("arrow-right").gameObject.SetActive(true);
+				playerMenu.Find("arrow-left").gameObject.SetActive(true);
+				playerMenu.Find("arrow-right").gameObject.SetActive(true);
 			}
 			// updates icon based on car index (protected for early calls before a new player has own properties set)
 			if (p.customProperties.ContainsKey("car")) {
-				playerMenu.FindChild("Image").GetComponent<Image>().sprite = carTextures[(int) p.customProperties["car"]];
-				playerMenu.FindChild("Text").GetComponent<Text>().text = p.name.Trim();
+				playerMenu.Find("Image").GetComponent<Image>().sprite = carTextures[(int) p.customProperties["car"]];
+				playerMenu.Find("Text").GetComponent<Text>().text = p.name.Trim();
 			}
 		}
 	}
 
 	private void ClearPlayersGUI() {
 		foreach (Transform t in playerMenus) {
-			t.FindChild("Image").GetComponent<Image>().sprite = noCar;
-			t.FindChild("Text").GetComponent<Text>().text = "";
-			t.FindChild("arrow-left").gameObject.SetActive(false);
-			t.FindChild("arrow-right").gameObject.SetActive(false);
+			t.Find("Image").GetComponent<Image>().sprite = noCar;
+			t.Find("Text").GetComponent<Text>().text = "";
+			t.Find("arrow-left").gameObject.SetActive(false);
+			t.Find("arrow-right").gameObject.SetActive(false);
 		}
 	}
 
