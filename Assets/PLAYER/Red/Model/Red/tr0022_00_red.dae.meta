@@ -1,0 +1,336 @@
+fileFormatVersion: 2
+guid: 3f8c932cf20b59347a0c43f08e4bcc28
+timeCreated: 1570976704
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bag1
+    100002: Bag2
+    100004: Bag3
+    100006: CamTgtBody
+    100008: CamTgtBust
+    100010: CamTgtFoot
+    100012: CamTgtHead
+    100014: EnvironmentAmbientLight
+    100016: Hat1
+    100018: Head
+    100020: Hips
+    100022: LArm
+    100024: LArmEX
+    100026: LBag1
+    100028: LBag2
+    100030: LBag3
+    100032: LFingerA1
+    100034: LFingerA2
+    100036: LFingerA3
+    100038: LFingerB1
+    100040: LFingerB2
+    100042: LFingerB3
+    100044: LFingerC1
+    100046: LFingerC2
+    100048: LFingerC3
+    100050: LFingerD1
+    100052: LFingerD2
+    100054: LFingerD3
+    100056: LFingerE1
+    100058: LFingerE2
+    100060: LFingerE3
+    100062: LFoot
+    100064: LForeArm
+    100066: LForeArmEX
+    100068: LHand
+    100070: LLeg
+    100072: LLowerLipA
+    100074: loc_bd_01
+    100076: loc_bd_02
+    100078: loc_bd_03
+    100080: loc_eff_eye
+    100082: loc_eff_head
+    100084: loc_eff_mouth
+    100086: loc_ob_ball
+    100088: loc_ob_obj
+    100090: LowerJaw
+    100092: LowerLip
+    100094: LowerTeeth
+    100096: LParts1
+    100098: LShoulder
+    100100: LSideLip
+    100102: LSkirt1
+    100104: LThigh
+    100106: LToe
+    100108: LUpperLipA
+    100110: Neck
+    100112: Origin
+    100114: RArm
+    100116: RArmEX
+    100118: RBag1
+    100120: RBag2
+    100122: RBag3
+    100124: RFingerA1
+    100126: RFingerA2
+    100128: RFingerA3
+    100130: RFingerB1
+    100132: RFingerB2
+    100134: RFingerB3
+    100136: RFingerC1
+    100138: RFingerC2
+    100140: RFingerC3
+    100142: RFingerD1
+    100144: RFingerD2
+    100146: RFingerD3
+    100148: RFingerE1
+    100150: RFingerE2
+    100152: RFingerE3
+    100154: RFoot
+    100156: RForeArm
+    100158: RForeArmEX
+    100160: RHand
+    100162: RLeg
+    100164: RLowerLipA
+    100166: RParts1
+    100168: RShoulder
+    100170: RSideLip
+    100172: RSkirt1
+    100174: RThigh
+    100176: RToe
+    100178: RUpperLipA
+    100180: Spine1
+    100182: Spine2
+    100184: Spine3
+    100186: tr0022_00
+    100188: tr0022_00_bagSkin
+    100190: tr0022_00_bagSkin 1
+    100192: tr0022_00_bodySkin
+    100194: tr0022_00_bodySkin 1
+    100196: tr0022_00_bottomsSkin
+    100198: tr0022_00_bottomsSkin 1
+    100200: tr0022_00_faceSkin
+    100202: tr0022_00_faceSkin 1
+    100204: tr0022_00_hairSkin
+    100206: tr0022_00_hairSkin 1
+    100208: tr0022_00_hatSkin
+    100210: tr0022_00_hatSkin 1
+    100212: tr0022_00_mouthSkin
+    100214: tr0022_00_mouthSkin 1
+    100216: //RootNode
+    100218: tr0022_00_shoesSkin
+    100220: tr0022_00_shoesSkin 1
+    100222: tr0022_00_toothSkin
+    100224: tr0022_00_toothSkin 1
+    100226: tr0022_00_topsSkin
+    100228: tr0022_00_topsSkin 1
+    100230: UpperJaw
+    100232: UpperLip
+    100234: UpperTeeth
+    100236: Waist
+    400000: Bag1
+    400002: Bag2
+    400004: Bag3
+    400006: CamTgtBody
+    400008: CamTgtBust
+    400010: CamTgtFoot
+    400012: CamTgtHead
+    400014: EnvironmentAmbientLight
+    400016: Hat1
+    400018: Head
+    400020: Hips
+    400022: LArm
+    400024: LArmEX
+    400026: LBag1
+    400028: LBag2
+    400030: LBag3
+    400032: LFingerA1
+    400034: LFingerA2
+    400036: LFingerA3
+    400038: LFingerB1
+    400040: LFingerB2
+    400042: LFingerB3
+    400044: LFingerC1
+    400046: LFingerC2
+    400048: LFingerC3
+    400050: LFingerD1
+    400052: LFingerD2
+    400054: LFingerD3
+    400056: LFingerE1
+    400058: LFingerE2
+    400060: LFingerE3
+    400062: LFoot
+    400064: LForeArm
+    400066: LForeArmEX
+    400068: LHand
+    400070: LLeg
+    400072: LLowerLipA
+    400074: loc_bd_01
+    400076: loc_bd_02
+    400078: loc_bd_03
+    400080: loc_eff_eye
+    400082: loc_eff_head
+    400084: loc_eff_mouth
+    400086: loc_ob_ball
+    400088: loc_ob_obj
+    400090: LowerJaw
+    400092: LowerLip
+    400094: LowerTeeth
+    400096: LParts1
+    400098: LShoulder
+    400100: LSideLip
+    400102: LSkirt1
+    400104: LThigh
+    400106: LToe
+    400108: LUpperLipA
+    400110: Neck
+    400112: Origin
+    400114: RArm
+    400116: RArmEX
+    400118: RBag1
+    400120: RBag2
+    400122: RBag3
+    400124: RFingerA1
+    400126: RFingerA2
+    400128: RFingerA3
+    400130: RFingerB1
+    400132: RFingerB2
+    400134: RFingerB3
+    400136: RFingerC1
+    400138: RFingerC2
+    400140: RFingerC3
+    400142: RFingerD1
+    400144: RFingerD2
+    400146: RFingerD3
+    400148: RFingerE1
+    400150: RFingerE2
+    400152: RFingerE3
+    400154: RFoot
+    400156: RForeArm
+    400158: RForeArmEX
+    400160: RHand
+    400162: RLeg
+    400164: RLowerLipA
+    400166: RParts1
+    400168: RShoulder
+    400170: RSideLip
+    400172: RSkirt1
+    400174: RThigh
+    400176: RToe
+    400178: RUpperLipA
+    400180: Spine1
+    400182: Spine2
+    400184: Spine3
+    400186: tr0022_00
+    400188: tr0022_00_bagSkin
+    400190: tr0022_00_bagSkin 1
+    400192: tr0022_00_bodySkin
+    400194: tr0022_00_bodySkin 1
+    400196: tr0022_00_bottomsSkin
+    400198: tr0022_00_bottomsSkin 1
+    400200: tr0022_00_faceSkin
+    400202: tr0022_00_faceSkin 1
+    400204: tr0022_00_hairSkin
+    400206: tr0022_00_hairSkin 1
+    400208: tr0022_00_hatSkin
+    400210: tr0022_00_hatSkin 1
+    400212: tr0022_00_mouthSkin
+    400214: tr0022_00_mouthSkin 1
+    400216: //RootNode
+    400218: tr0022_00_shoesSkin
+    400220: tr0022_00_shoesSkin 1
+    400222: tr0022_00_toothSkin
+    400224: tr0022_00_toothSkin 1
+    400226: tr0022_00_topsSkin
+    400228: tr0022_00_topsSkin 1
+    400230: UpperJaw
+    400232: UpperLip
+    400234: UpperTeeth
+    400236: Waist
+    4300000: tr0022_00_hatSkin
+    4300002: tr0022_00_faceSkin
+    4300004: tr0022_00_mouthSkin
+    4300006: tr0022_00_toothSkin
+    4300008: tr0022_00_hairSkin
+    4300010: tr0022_00_topsSkin
+    4300012: tr0022_00_bodySkin
+    4300014: tr0022_00_bagSkin
+    4300016: tr0022_00_bottomsSkin
+    4300018: tr0022_00_shoesSkin
+    9500000: //RootNode
+    13700000: tr0022_00_bagSkin
+    13700002: tr0022_00_bodySkin
+    13700004: tr0022_00_bottomsSkin
+    13700006: tr0022_00_faceSkin
+    13700008: tr0022_00_hairSkin
+    13700010: tr0022_00_hatSkin
+    13700012: tr0022_00_mouthSkin
+    13700014: tr0022_00_shoesSkin
+    13700016: tr0022_00_toothSkin
+    13700018: tr0022_00_topsSkin
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,388 @@
+fileFormatVersion: 2
+guid: 62aeedc736c3caf4799a717ec8edb90f
+timeCreated: 1570960819
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: ArmL
+    100002: ArmR
+    100004: Bust
+    100006: ClavicleL
+    100008: ClavicleR
+    100010: EnvironmentAmbientLight
+    100012: Face
+    100014: FingerL10
+    100016: FingerL11
+    100018: FingerL12
+    100020: FingerL13
+    100022: FingerL20
+    100024: FingerL21
+    100026: FingerL22
+    100028: FingerL23
+    100030: FingerL30
+    100032: FingerL31
+    100034: FingerL32
+    100036: FingerL33
+    100038: FingerL40
+    100040: FingerL41
+    100042: FingerL42
+    100044: FingerL43
+    100046: FingerL51
+    100048: FingerL52
+    100050: FingerL53
+    100052: FingerR10
+    100054: FingerR11
+    100056: FingerR12
+    100058: FingerR13
+    100060: FingerR20
+    100062: FingerR21
+    100064: FingerR22
+    100066: FingerR23
+    100068: FingerR30
+    100070: FingerR31
+    100072: FingerR32
+    100074: FingerR33
+    100076: FingerR40
+    100078: FingerR41
+    100080: FingerR42
+    100082: FingerR43
+    100084: FingerR51
+    100086: FingerR52
+    100088: FingerR53
+    100090: FootL
+    100092: FootR
+    100094: //RootNode
+    100096: Fox_Appeal_mayu_VIS_O_OBJShape
+    100098: Fox_Appeal_mouth_VIS_O_OBJShape
+    100100: Fox_Attack_mayu_VIS_O_OBJShape
+    100102: Fox_Attack_mouth_VIS_O_OBJShape
+    100104: Fox_big_eye_VIS_O_OBJShape
+    100106: Fox_big_eye_VIS_O_OBJShape 1
+    100108: fox_blaster_VIS_O_OBJShape
+    100110: Fox_Blink_mayu_VIS_O_OBJShape
+    100112: Fox_Capture_mayu_VIS_O_OBJShape
+    100114: Fox_Catch_mouth_VIS_O_OBJShape
+    100116: Fox_Escape_mouth_VIS_O_OBJShape
+    100118: Fox_FaceN_mayu_VIS_O_OBJShape
+    100120: Fox_FaceN_mouth_VIS_O_OBJShape
+    100122: Fox_Furafura_mayu_VIS_O_OBJShape
+    100124: Fox_Halfblink_mayu_VIS_O_OBJShape
+    100126: Fox_Heavyattack_mouth_VIS_O_OBJShape
+    100128: Fox_Heavyhit_mouth_VIS_O_OBJShape
+    100130: Fox_Heavyouch_mayu_VIS_O_OBJShape
+    100132: Fox_Heavyouch_mouth_VIS_O_OBJShape
+    100134: Fox_Hot_mouth_VIS_O_OBJShape
+    100136: Fox_Hot_mouth_VIS_O_OBJShape 1
+    100138: Fox_normal_eye_VIS_O_OBJShape
+    100140: Fox_normal_eye_VIS_O_OBJShape 1
+    100142: Fox_Ottotto_mouth_VIS_O_OBJShape
+    100144: Fox_Ouch_mayu_VIS_O_OBJShape
+    100146: Fox_Ouch_mouth_VIS_O_OBJShape
+    100148: Fox_Result_mouth_VIS_O_OBJShape
+    100150: Fox_Talk_mayu_VIS_O_OBJShape
+    100152: Fox_Talk_mouth_VIS_O_OBJShape
+    100154: GamemodelShape
+    100156: GamemodelShape 1
+    100158: GamemodelShape 2
+    100160: GamemodelShape 3
+    100162: GamemodelShape 4
+    100164: groupShape14
+    100166: groupShape32
+    100168: H_ArmtwistL
+    100170: H_ArmtwistR
+    100172: H_JacketL
+    100174: H_JacketR
+    100176: H_ShoulderL
+    100178: H_ShoulderR
+    100180: H_WristL
+    100182: H_WristR
+    100184: HandL
+    100186: HandR
+    100188: HaveL
+    100190: HaveR
+    100192: Head
+    100194: Hip
+    100196: Jaw
+    100198: KneeL
+    100200: KneeR
+    100202: LegL
+    100204: LegR
+    100206: Neck
+    100208: Nose
+    100210: Reflector
+    100212: Rot
+    100214: scouter1Shape
+    100216: ShoulderL
+    100218: ShoulderR
+    100220: Tail1
+    100222: Tail2
+    100224: Tail3
+    100226: Throw
+    100228: ToeL
+    100230: ToeR
+    100232: Trans
+    100234: Waist
+    400000: ArmL
+    400002: ArmR
+    400004: Bust
+    400006: ClavicleL
+    400008: ClavicleR
+    400010: EnvironmentAmbientLight
+    400012: Face
+    400014: FingerL10
+    400016: FingerL11
+    400018: FingerL12
+    400020: FingerL13
+    400022: FingerL20
+    400024: FingerL21
+    400026: FingerL22
+    400028: FingerL23
+    400030: FingerL30
+    400032: FingerL31
+    400034: FingerL32
+    400036: FingerL33
+    400038: FingerL40
+    400040: FingerL41
+    400042: FingerL42
+    400044: FingerL43
+    400046: FingerL51
+    400048: FingerL52
+    400050: FingerL53
+    400052: FingerR10
+    400054: FingerR11
+    400056: FingerR12
+    400058: FingerR13
+    400060: FingerR20
+    400062: FingerR21
+    400064: FingerR22
+    400066: FingerR23
+    400068: FingerR30
+    400070: FingerR31
+    400072: FingerR32
+    400074: FingerR33
+    400076: FingerR40
+    400078: FingerR41
+    400080: FingerR42
+    400082: FingerR43
+    400084: FingerR51
+    400086: FingerR52
+    400088: FingerR53
+    400090: FootL
+    400092: FootR
+    400094: //RootNode
+    400096: Fox_Appeal_mayu_VIS_O_OBJShape
+    400098: Fox_Appeal_mouth_VIS_O_OBJShape
+    400100: Fox_Attack_mayu_VIS_O_OBJShape
+    400102: Fox_Attack_mouth_VIS_O_OBJShape
+    400104: Fox_big_eye_VIS_O_OBJShape
+    400106: Fox_big_eye_VIS_O_OBJShape 1
+    400108: fox_blaster_VIS_O_OBJShape
+    400110: Fox_Blink_mayu_VIS_O_OBJShape
+    400112: Fox_Capture_mayu_VIS_O_OBJShape
+    400114: Fox_Catch_mouth_VIS_O_OBJShape
+    400116: Fox_Escape_mouth_VIS_O_OBJShape
+    400118: Fox_FaceN_mayu_VIS_O_OBJShape
+    400120: Fox_FaceN_mouth_VIS_O_OBJShape
+    400122: Fox_Furafura_mayu_VIS_O_OBJShape
+    400124: Fox_Halfblink_mayu_VIS_O_OBJShape
+    400126: Fox_Heavyattack_mouth_VIS_O_OBJShape
+    400128: Fox_Heavyhit_mouth_VIS_O_OBJShape
+    400130: Fox_Heavyouch_mayu_VIS_O_OBJShape
+    400132: Fox_Heavyouch_mouth_VIS_O_OBJShape
+    400134: Fox_Hot_mouth_VIS_O_OBJShape
+    400136: Fox_Hot_mouth_VIS_O_OBJShape 1
+    400138: Fox_normal_eye_VIS_O_OBJShape
+    400140: Fox_normal_eye_VIS_O_OBJShape 1
+    400142: Fox_Ottotto_mouth_VIS_O_OBJShape
+    400144: Fox_Ouch_mayu_VIS_O_OBJShape
+    400146: Fox_Ouch_mouth_VIS_O_OBJShape
+    400148: Fox_Result_mouth_VIS_O_OBJShape
+    400150: Fox_Talk_mayu_VIS_O_OBJShape
+    400152: Fox_Talk_mouth_VIS_O_OBJShape
+    400154: GamemodelShape
+    400156: GamemodelShape 1
+    400158: GamemodelShape 2
+    400160: GamemodelShape 3
+    400162: GamemodelShape 4
+    400164: groupShape14
+    400166: groupShape32
+    400168: H_ArmtwistL
+    400170: H_ArmtwistR
+    400172: H_JacketL
+    400174: H_JacketR
+    400176: H_ShoulderL
+    400178: H_ShoulderR
+    400180: H_WristL
+    400182: H_WristR
+    400184: HandL
+    400186: HandR
+    400188: HaveL
+    400190: HaveR
+    400192: Head
+    400194: Hip
+    400196: Jaw
+    400198: KneeL
+    400200: KneeR
+    400202: LegL
+    400204: LegR
+    400206: Neck
+    400208: Nose
+    400210: Reflector
+    400212: Rot
+    400214: scouter1Shape
+    400216: ShoulderL
+    400218: ShoulderR
+    400220: Tail1
+    400222: Tail2
+    400224: Tail3
+    400226: Throw
+    400228: ToeL
+    400230: ToeR
+    400232: Trans
+    400234: Waist
+    4300000: GamemodelShape
+    4300002: GamemodelShape
+    4300004: GamemodelShape
+    4300006: GamemodelShape
+    4300008: GamemodelShape
+    4300010: fox_blaster_VIS_O_OBJShape
+    4300012: groupShape14
+    4300014: groupShape32
+    4300016: scouter1Shape
+    4300018: Fox_FaceN_mayu_VIS_O_OBJShape
+    4300020: Fox_Capture_mayu_VIS_O_OBJShape
+    4300022: Fox_Attack_mayu_VIS_O_OBJShape
+    4300024: Fox_Heavyouch_mayu_VIS_O_OBJShape
+    4300026: Fox_Ouch_mayu_VIS_O_OBJShape
+    4300028: Fox_Furafura_mayu_VIS_O_OBJShape
+    4300030: Fox_Appeal_mayu_VIS_O_OBJShape
+    4300032: Fox_Halfblink_mayu_VIS_O_OBJShape
+    4300034: Fox_Blink_mayu_VIS_O_OBJShape
+    4300036: Fox_Talk_mayu_VIS_O_OBJShape
+    4300038: Fox_FaceN_mouth_VIS_O_OBJShape
+    4300040: Fox_Talk_mouth_VIS_O_OBJShape
+    4300042: Fox_Heavyhit_mouth_VIS_O_OBJShape
+    4300044: Fox_Heavyouch_mouth_VIS_O_OBJShape
+    4300046: Fox_Escape_mouth_VIS_O_OBJShape
+    4300048: Fox_Heavyattack_mouth_VIS_O_OBJShape
+    4300050: Fox_Catch_mouth_VIS_O_OBJShape
+    4300052: Fox_Attack_mouth_VIS_O_OBJShape
+    4300054: Fox_Ouch_mouth_VIS_O_OBJShape
+    4300056: Fox_Ottotto_mouth_VIS_O_OBJShape
+    4300058: Fox_Hot_mouth_VIS_O_OBJShape
+    4300060: Fox_Hot_mouth_VIS_O_OBJShape
+    4300062: Fox_Appeal_mouth_VIS_O_OBJShape
+    4300064: Fox_Result_mouth_VIS_O_OBJShape
+    4300066: Fox_big_eye_VIS_O_OBJShape
+    4300068: Fox_big_eye_VIS_O_OBJShape
+    4300070: Fox_normal_eye_VIS_O_OBJShape
+    4300072: Fox_normal_eye_VIS_O_OBJShape
+    9500000: //RootNode
+    13700000: Fox_Appeal_mayu_VIS_O_OBJShape
+    13700002: Fox_Appeal_mouth_VIS_O_OBJShape
+    13700004: Fox_Attack_mayu_VIS_O_OBJShape
+    13700006: Fox_Attack_mouth_VIS_O_OBJShape
+    13700008: Fox_big_eye_VIS_O_OBJShape
+    13700010: Fox_big_eye_VIS_O_OBJShape 1
+    13700012: fox_blaster_VIS_O_OBJShape
+    13700014: Fox_Blink_mayu_VIS_O_OBJShape
+    13700016: Fox_Capture_mayu_VIS_O_OBJShape
+    13700018: Fox_Catch_mouth_VIS_O_OBJShape
+    13700020: Fox_Escape_mouth_VIS_O_OBJShape
+    13700022: Fox_FaceN_mayu_VIS_O_OBJShape
+    13700024: Fox_FaceN_mouth_VIS_O_OBJShape
+    13700026: Fox_Furafura_mayu_VIS_O_OBJShape
+    13700028: Fox_Halfblink_mayu_VIS_O_OBJShape
+    13700030: Fox_Heavyattack_mouth_VIS_O_OBJShape
+    13700032: Fox_Heavyhit_mouth_VIS_O_OBJShape
+    13700034: Fox_Heavyouch_mayu_VIS_O_OBJShape
+    13700036: Fox_Heavyouch_mouth_VIS_O_OBJShape
+    13700038: Fox_Hot_mouth_VIS_O_OBJShape
+    13700040: Fox_Hot_mouth_VIS_O_OBJShape 1
+    13700042: Fox_normal_eye_VIS_O_OBJShape
+    13700044: Fox_normal_eye_VIS_O_OBJShape 1
+    13700046: Fox_Ottotto_mouth_VIS_O_OBJShape
+    13700048: Fox_Ouch_mayu_VIS_O_OBJShape
+    13700050: Fox_Ouch_mouth_VIS_O_OBJShape
+    13700052: Fox_Result_mouth_VIS_O_OBJShape
+    13700054: Fox_Talk_mayu_VIS_O_OBJShape
+    13700056: Fox_Talk_mouth_VIS_O_OBJShape
+    13700058: GamemodelShape
+    13700060: GamemodelShape 1
+    13700062: GamemodelShape 2
+    13700064: GamemodelShape 3
+    13700066: GamemodelShape 4
+    13700068: groupShape14
+    13700070: groupShape32
+    13700072: scouter1Shape
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

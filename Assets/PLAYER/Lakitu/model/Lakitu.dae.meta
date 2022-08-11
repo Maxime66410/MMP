@@ -1,0 +1,164 @@
+fileFormatVersion: 2
+guid: 70b02c469e24bcf46a9410723ba2537c
+timeCreated: 1570970936
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: ArmL_1
+    100002: ArmR_1
+    100004: Body__m_Body
+    100006: Body__m_Eye
+    100008: ElbowL_1
+    100010: ElbowR_1
+    100012: Finger1L_1
+    100014: Finger1R_1
+    100016: Finger2L_1
+    100018: Finger2R_1
+    100020: FootL_1
+    100022: FootR_1
+    100024: Hair1_1
+    100026: Hair2_1
+    100028: HandL_1
+    100030: HandR_1
+    100032: Head_1
+    100034: Hip_1
+    100036: Jugem
+    100038: KneeL_1
+    100040: KneeR_1
+    100042: //RootNode
+    100044: LegL_1
+    100046: LegR_1
+    100048: Mouth_1
+    100050: Nose_1
+    100052: Pupil_2
+    100054: Pupil__m_PupilL
+    100056: Pupil__m_PupilR
+    100058: ShoulderL_1
+    100060: ShoulderR_1
+    100062: Skl_Root_1
+    100064: Spine1_1
+    100066: Spine2_1
+    100068: Tail_1
+    100070: Thumb1L_1
+    100072: Thumb1R_1
+    100074: Thumb2L_1
+    100076: Thumb2R_1
+    400000: ArmL_1
+    400002: ArmR_1
+    400004: Body__m_Body
+    400006: Body__m_Eye
+    400008: ElbowL_1
+    400010: ElbowR_1
+    400012: Finger1L_1
+    400014: Finger1R_1
+    400016: Finger2L_1
+    400018: Finger2R_1
+    400020: FootL_1
+    400022: FootR_1
+    400024: Hair1_1
+    400026: Hair2_1
+    400028: HandL_1
+    400030: HandR_1
+    400032: Head_1
+    400034: Hip_1
+    400036: Jugem
+    400038: KneeL_1
+    400040: KneeR_1
+    400042: //RootNode
+    400044: LegL_1
+    400046: LegR_1
+    400048: Mouth_1
+    400050: Nose_1
+    400052: Pupil_2
+    400054: Pupil__m_PupilL
+    400056: Pupil__m_PupilR
+    400058: ShoulderL_1
+    400060: ShoulderR_1
+    400062: Skl_Root_1
+    400064: Spine1_1
+    400066: Spine2_1
+    400068: Tail_1
+    400070: Thumb1L_1
+    400072: Thumb1R_1
+    400074: Thumb2L_1
+    400076: Thumb2R_1
+    4300000: Body__m_Body
+    4300002: Body__m_Eye
+    4300004: Pupil__m_PupilL
+    4300006: Pupil__m_PupilR
+    9500000: //RootNode
+    13700000: Body__m_Body
+    13700002: Body__m_Eye
+    13700004: Pupil__m_PupilL
+    13700006: Pupil__m_PupilR
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

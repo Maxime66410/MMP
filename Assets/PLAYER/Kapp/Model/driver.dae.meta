@@ -1,0 +1,214 @@
+fileFormatVersion: 2
+guid: e98e80a80d7993942968b06c581226da
+timeCreated: 1570958467
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: ArmL
+    100002: ArmR
+    100004: Bus_Back
+    100006: Bus_Back_eff
+    100008: Bus_BackWheelL
+    100010: Bus_BackWheelL1
+    100012: Bus_BackWheelR
+    100014: Bus_BackWheelR1
+    100016: Bus_bod
+    100018: Bus_doorL
+    100020: Bus_doorM
+    100022: Bus_doorR
+    100024: Bus_Front
+    100026: Bus_Front_eff
+    100028: Bus_FrontWheelL
+    100030: Bus_FrontWheelL1
+    100032: Bus_FrontWheelR
+    100034: Bus_FrontWheelR1
+    100036: bus_modelShape
+    100038: bus_modelShape 1
+    100040: Bus_Rot
+    100042: Bus_Trans
+    100044: Bust
+    100046: ClavicleL
+    100048: ClavicleR
+    100050: //RootNode
+    100052: driver_closedoor_VIS_O_OBJShape
+    100054: driver_closedoor_VIS_O_OBJShape 1
+    100056: driver_IN_VIS_O_OBJShape
+    100058: driver_IN_VIS_O_OBJShape 1
+    100060: driver_IN_VIS_O_OBJShape 2
+    100062: driver_opendoor_VIS_O_OBJShape
+    100064: driver_opendoor_VIS_O_OBJShape 1
+    100066: driver_OUT_VIS_O_OBJShape
+    100068: driver_OUT_VIS_O_OBJShape 1
+    100070: driver_OUT_VIS_O_OBJShape 2
+    100072: EnvironmentAmbientLight
+    100074: Head
+    100076: Hip
+    100078: inside_A_VIS_O_OBJShape
+    100080: inside_B_VIS_O_OBJShape
+    100082: Kap_Rot
+    100084: Kap_Trans
+    100086: KneeL
+    100088: KneeR
+    100090: LegL
+    100092: LegR
+    100094: Rot
+    100096: Shake
+    100098: ShoulderL
+    100100: ShoulderR
+    100102: Throw
+    100104: Trans
+    100106: Waist
+    400000: ArmL
+    400002: ArmR
+    400004: Bus_Back
+    400006: Bus_Back_eff
+    400008: Bus_BackWheelL
+    400010: Bus_BackWheelL1
+    400012: Bus_BackWheelR
+    400014: Bus_BackWheelR1
+    400016: Bus_bod
+    400018: Bus_doorL
+    400020: Bus_doorM
+    400022: Bus_doorR
+    400024: Bus_Front
+    400026: Bus_Front_eff
+    400028: Bus_FrontWheelL
+    400030: Bus_FrontWheelL1
+    400032: Bus_FrontWheelR
+    400034: Bus_FrontWheelR1
+    400036: bus_modelShape
+    400038: bus_modelShape 1
+    400040: Bus_Rot
+    400042: Bus_Trans
+    400044: Bust
+    400046: ClavicleL
+    400048: ClavicleR
+    400050: //RootNode
+    400052: driver_closedoor_VIS_O_OBJShape
+    400054: driver_closedoor_VIS_O_OBJShape 1
+    400056: driver_IN_VIS_O_OBJShape
+    400058: driver_IN_VIS_O_OBJShape 1
+    400060: driver_IN_VIS_O_OBJShape 2
+    400062: driver_opendoor_VIS_O_OBJShape
+    400064: driver_opendoor_VIS_O_OBJShape 1
+    400066: driver_OUT_VIS_O_OBJShape
+    400068: driver_OUT_VIS_O_OBJShape 1
+    400070: driver_OUT_VIS_O_OBJShape 2
+    400072: EnvironmentAmbientLight
+    400074: Head
+    400076: Hip
+    400078: inside_A_VIS_O_OBJShape
+    400080: inside_B_VIS_O_OBJShape
+    400082: Kap_Rot
+    400084: Kap_Trans
+    400086: KneeL
+    400088: KneeR
+    400090: LegL
+    400092: LegR
+    400094: Rot
+    400096: Shake
+    400098: ShoulderL
+    400100: ShoulderR
+    400102: Throw
+    400104: Trans
+    400106: Waist
+    4300000: driver_OUT_VIS_O_OBJShape
+    4300002: driver_OUT_VIS_O_OBJShape
+    4300004: driver_OUT_VIS_O_OBJShape
+    4300006: driver_IN_VIS_O_OBJShape
+    4300008: driver_IN_VIS_O_OBJShape
+    4300010: driver_IN_VIS_O_OBJShape
+    4300012: bus_modelShape
+    4300014: bus_modelShape
+    4300016: inside_A_VIS_O_OBJShape
+    4300018: inside_B_VIS_O_OBJShape
+    4300020: driver_opendoor_VIS_O_OBJShape
+    4300022: driver_opendoor_VIS_O_OBJShape
+    4300024: driver_closedoor_VIS_O_OBJShape
+    4300026: driver_closedoor_VIS_O_OBJShape
+    9500000: //RootNode
+    13700000: bus_modelShape
+    13700002: bus_modelShape 1
+    13700004: driver_closedoor_VIS_O_OBJShape
+    13700006: driver_closedoor_VIS_O_OBJShape 1
+    13700008: driver_IN_VIS_O_OBJShape
+    13700010: driver_IN_VIS_O_OBJShape 1
+    13700012: driver_IN_VIS_O_OBJShape 2
+    13700014: driver_opendoor_VIS_O_OBJShape
+    13700016: driver_opendoor_VIS_O_OBJShape 1
+    13700018: driver_OUT_VIS_O_OBJShape
+    13700020: driver_OUT_VIS_O_OBJShape 1
+    13700022: driver_OUT_VIS_O_OBJShape 2
+    13700024: inside_A_VIS_O_OBJShape
+    13700026: inside_B_VIS_O_OBJShape
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
