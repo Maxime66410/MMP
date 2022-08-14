@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-using UnityEngine.SceneManagement;
+using UnitySceneManager =  UnityEngine.SceneManagement.SceneManager;
 
 namespace RVP
 {
@@ -71,7 +71,9 @@ namespace RVP
             {
                 if (Input.GetButtonDown("Restart"))
                 {
-                    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+                    // Restart the current scene
+                    // Récupéré le nom de la scene actuel
+                   // UnitySceneManager.LoadScene(UnitySceneManager.GetActiveScene().name);
                     Time.timeScale = 1;
                     Time.fixedDeltaTime = initialFixedTime;
                 }
