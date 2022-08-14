@@ -10,6 +10,8 @@
 
 using System;
 using ExitGames.Client.Photon;
+using Photon;
+using Newtonsoft;
 using UnityEngine;
 
 
