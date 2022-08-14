@@ -1,5 +1,7 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using System.Collections;
+using Random = UnityEngine.Random;
 
 namespace RVP
 {
@@ -128,27 +130,34 @@ namespace RVP
 
                 foreach (ContactPoint curCol in col.contacts)
                 {
-                    if (tr.InverseTransformPoint(curCol.point).y > collisionIgnoreHeight && GlobalControl.damageMaskStatic == (GlobalControl.damageMaskStatic | (1 << curCol.otherCollider.gameObject.layer)))
+                    try
                     {
-                        colsChecked++;
-
-                        //Play crash sound
-                        if (vp.crashSnd && vp.crashClips.Length > 0 && !soundPlayed)
+                        if (tr.InverseTransformPoint(curCol.point).y > collisionIgnoreHeight && GlobalControl.damageMaskStatic == (GlobalControl.damageMaskStatic | (1 << curCol.otherCollider.gameObject.layer)))
                         {
-                            vp.crashSnd.PlayOneShot(vp.crashClips[Random.Range(0, vp.crashClips.Length)], Mathf.Clamp01(col.relativeVelocity.magnitude * 0.1f));
-                            soundPlayed = true;
-                        }
+                            colsChecked++;
 
-                        //Play crash sparks
-                        if (vp.sparks && !sparkPlayed)
-                        {
-                            vp.sparks.transform.position = curCol.point;
-                            vp.sparks.transform.rotation = Quaternion.LookRotation(normalizedVel, curCol.normal);
-                            vp.sparks.Play();
-                            sparkPlayed = true;
-                        }
+                            //Play crash sound
+                            if (vp.crashSnd && vp.crashClips.Length > 0 && !soundPlayed)
+                            {
+                                vp.crashSnd.PlayOneShot(vp.crashClips[Random.Range(0, vp.crashClips.Length)], Mathf.Clamp01(col.relativeVelocity.magnitude * 0.1f));
+                                soundPlayed = true;
+                            }
 
-                        DamageApplication(curCol.point, col.relativeVelocity, maxCollisionMagnitude, curCol.normal, curCol, true);
+                            //Play crash sparks
+                            if (vp.sparks && !sparkPlayed)
+                            {
+                                vp.sparks.transform.position = curCol.point;
+                                vp.sparks.transform.rotation = Quaternion.LookRotation(normalizedVel, curCol.normal);
+                                vp.sparks.Play();
+                                sparkPlayed = true;
+                            }
+
+                            DamageApplication(curCol.point, col.relativeVelocity, maxCollisionMagnitude, curCol.normal, curCol, true);
+                        }
+                    }
+                    catch (Exception e)
+                    {
+                        
                     }
 
                     //Stop checking collision points when limit reached
@@ -452,19 +461,26 @@ namespace RVP
             //Apply vertices to actual meshes
             for (int i = 0; i < deformMeshes.Length; i++)
             {
-                if (damagedMeshes[i])
+                try
                 {
-                    tempMeshes[i].vertices = meshVertices[i].verts;
-
-                    if (calculateNormals)
+                    if (damagedMeshes[i])
                     {
-                        tempMeshes[i].RecalculateNormals();
+                        tempMeshes[i].vertices = meshVertices[i].verts;
+
+                        if (calculateNormals)
+                        {
+                            tempMeshes[i].RecalculateNormals();
+                        }
+
+                        tempMeshes[i].RecalculateBounds();
                     }
-
-                    tempMeshes[i].RecalculateBounds();
+                    
+                    damagedMeshes[i] = false;
                 }
-
-                damagedMeshes[i] = false;
+                catch (Exception e)
+                {
+                    
+                }
             }
 
             //Apply vertices to actual mesh colliders
